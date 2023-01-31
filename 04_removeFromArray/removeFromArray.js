@@ -6,7 +6,7 @@ const removeFromArray = function(array, ...numbers) {
     // if the ith element in the array is included in the numbers array
     if (numbers.includes(array[i]))
     {
-      // continue (skip)
+      // continue (effectively removing the number)
       continue;
     }
     // else 
